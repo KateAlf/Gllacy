@@ -218,7 +218,22 @@ a:hover, a:active{
     width: 16px;
     height: 16px;
     padding: 8px;
+
 }
+
+/* Hack to fix hover on the icon */
+
+.top-icon__search:after {
+	display:block;
+	position: absolute;
+	content: "";
+	width:55px;
+	height:16px;
+	top: 30px;
+	left:0px;
+	background-color:transparent;
+}
+
 .sprite-search {
     display: inline-block;
     width: 17px;
@@ -270,6 +285,19 @@ a:hover, a:active{
     padding-left: 16px;
     z-index: 25;
 }
+
+/* Hack to fix hover on the icon */
+.top-icon__enter:after {
+	display:block;
+	position: absolute;
+	content: "";
+	width:105px;
+	height:16px;
+	top: 30px;
+	left:50px;
+	background-color:transparent;
+}
+
 .top-icon__enter:hover,
 .top-icon__cart:hover {
     background-color: #fff;
@@ -360,6 +388,20 @@ a:hover, a:active{
     line-height: 32px;
     padding-left: 16px;
 }
+
+/* Hack to fix hover on the icon */
+.top-icon__cart:after {
+	display:block;
+	position: absolute;
+	content: "";
+	width:105px;
+	height:16px;
+	top: 30px;
+	left:170px;
+	background-color:transparent;
+}
+
+
 .text--cart {
     font-size: 14px;
     color: #fff;
