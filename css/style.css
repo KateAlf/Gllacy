@@ -925,7 +925,7 @@ body > input[type="radio"] {
     margin-bottom: 30px;
 }
 .email {
-    width: 350px;
+    width: 60%;
     height: 44px;
     background: #fff;
     border: 1px solid #d3d3d2;
