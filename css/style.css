@@ -80,6 +80,7 @@ a:hover, a:active{
     display: inline-block;
     font-size: 16px;
     margin-left: 27px;
+    padding-bottom: 55px;
  }
 .top-nav__item a {
     color: #fff;
@@ -90,13 +91,13 @@ a:hover, a:active{
     text-decoration: none;
     z-index: 25;
     height: 32px;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 15px 45px 15px;
 }
 
 .top-nav__item a:after {
     position: absolute;
     right: 20px;
-    bottom: 0px;
+    bottom: 40px;
     left: 12px;
     height: 1px;
     content: "";
