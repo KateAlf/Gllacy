@@ -113,7 +113,7 @@ a:hover, a:active{
 }
 
 .top-nav__item--selected a{
-    
+
     display: inline-block;
     font-size: 16px;
     margin-left: 27px;
@@ -183,9 +183,9 @@ a:hover, a:active{
     }
 
 .submenu-item a:hover{
-	background-color:#fbded8;
-	border-radius:0px;
-	padding-left:0px;}
+    background-color:#fbded8;
+    border-radius:0px;
+    padding-left:0px;}
 
 .submenu-item a:active {
     background-color: #f6b5a5;
@@ -224,14 +224,14 @@ a:hover, a:active{
 /* Hack to fix hover on the icon */
 
 .top-icon__search:after {
-	display:block;
-	position: absolute;
-	content: "";
-	width:55px;
-	height:16px;
-	top: 30px;
-	left:0px;
-	background-color:transparent;
+    display:block;
+    position: absolute;
+    content: "";
+    width:55px;
+    height:16px;
+    top: 30px;
+    left:0px;
+    background-color:transparent;
 }
 
 .sprite-search {
@@ -288,14 +288,14 @@ a:hover, a:active{
 
 /* Hack to fix hover on the icon */
 .top-icon__enter:after {
-	display:block;
-	position: absolute;
-	content: "";
-	width:105px;
-	height:16px;
-	top: 30px;
-	left:50px;
-	background-color:transparent;
+    display:block;
+    position: absolute;
+    content: "";
+    width:105px;
+    height:16px;
+    top: 30px;
+    left:50px;
+    background-color:transparent;
 }
 
 .top-icon__enter:hover,
@@ -391,14 +391,14 @@ a:hover, a:active{
 
 /* Hack to fix hover on the icon */
 .top-icon__cart:after {
-	display:block;
-	position: absolute;
-	content: "";
-	width:105px;
-	height:16px;
-	top: 30px;
-	left:170px;
-	background-color:transparent;
+    display:block;
+    position: absolute;
+    content: "";
+    width:105px;
+    height:16px;
+    top: 30px;
+    left:170px;
+    background-color:transparent;
 }
 
 
@@ -478,7 +478,7 @@ a:hover, a:active{
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    height:50px;    
+    height:50px;
 }
 
 .line-3{
@@ -491,12 +491,12 @@ a:hover, a:active{
 }
 
 .cart-desc{
-    width: 214px; 
+    width: 214px;
     line-height: 14px;
 }
 
 .cart-quantity{
-    width:100px;   
+    width:100px;
 }
 
 .text--cart-form{
@@ -512,13 +512,13 @@ a:hover, a:active{
 .cart-text{
     font-size: 13px;
     color: #333333;
-   
+
 }
 
 .cart-text--price{
     font-size: 13px;
     color: #808080;
-    
+
 }
 
 .cart-total{
@@ -625,13 +625,13 @@ a:hover, a:active{
 }
 .slider__checkers {
     position: absolute;
-    bottom: 330px;
-    left: 260px;
+    bottom: 15px;
+    left: 0px;
     z-index: 20;
     font-size: 0;
 }
 .slider__checkers label {
-    
+
     display: inline-block;
     width: 17px;
     height: 17px;
@@ -694,9 +694,10 @@ body > input[type="radio"] {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    flex-basis: 46%;
+    width: 46%;
     flex-shrink: 1;
-    align-items: stretch;
+/*    align-items: stretch;*/
+    border-radius:15px;
 }
 .features__left {
     background: url(../img/banner_back1.png) no-repeat;
@@ -726,6 +727,7 @@ body > input[type="radio"] {
     font-weight: bold;
     text-align: center;
     align-self: flex-end;
+    margin-bottom:5px;
     border: none;
 }
 
@@ -1064,6 +1066,7 @@ body > input[type="radio"] {
     font-weight: 400;
     text-decoration: underline;
     text-align: left;
+
     /*    flex-basis: 120px;*/
 }
 .docs__text--selected {
@@ -1073,6 +1076,7 @@ body > input[type="radio"] {
     text-decoration: underline;
     position: relative;
     text-align: left;
+
 }
 .docs__text--selected:before {
     display: block;
